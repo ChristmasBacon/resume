@@ -1,8 +1,18 @@
 
 body{
   background-image: url("https://images.pexels.com/photos/262669/pexels-photo-262669.jpeg?cs=srgb&dl=astronomy-cosmos-crater-lake-national-park-262669.jpg&fm=jpg");
+  background-color: black;
+  background-repeat: no-repeat;
 }
 
 img{
   padding: 15px;
+}
+
+.skills{
+  text-align: center;
+}
+.skills img{
+   height: 150px;
+   min-width: auto;
 }
