@@ -6,16 +6,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { SkillsComponent } from './skills/skills.component';
 
 const appRoutes: Routes = [
   {path : '', component: HomeComponent},
   {path : 'Education', component: EducationComponent},
   {path : '', component: AppComponent},
   {path : 'Experience', component: ExperienceComponent},
-  {path : 'Resume', component: ResumeComponent},
-  {path : 'Contact', component: ContactComponent}
+  {path : 'Contact', component: ContactComponent},
+  {path : 'Skills', component: SkillsComponent}
 ]
 
 @NgModule({
@@ -24,8 +24,8 @@ const appRoutes: Routes = [
     HomeComponent,
     EducationComponent,
     ExperienceComponent,
-    ResumeComponent,
-    ContactComponent
+    ContactComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
